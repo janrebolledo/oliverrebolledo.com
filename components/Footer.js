@@ -22,17 +22,17 @@ export default function Footer() {
       <div className="footer-socials">
         <Link href="https://instagram.com">
           <a>
-            <img src={Instagram.src} />
+            <img alt="Instagram" src={Instagram.src} />
           </a>
         </Link>
         <Link href="https://twitter.com">
           <a>
-            <img src={Twitter.src} />
+            <img alt="Twitter" src={Twitter.src} />
           </a>
         </Link>
         <Link href="https://youtube.com">
           <a>
-            <img src={Youtube.src} />
+            <img alt="Youtube" src={Youtube.src} />
           </a>
         </Link>
       </div>
