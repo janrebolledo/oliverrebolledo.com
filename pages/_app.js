@@ -29,6 +29,12 @@ function App({ Component, pageProps }) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+        />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#000000" />
@@ -68,7 +74,9 @@ function App({ Component, pageProps }) {
         />
       </Head>
       <Header />
-      <Component {...pageProps} />
+      <main>
+        <Component {...pageProps} />
+      </main>
       <Footer />
       <script
         data-host="https://microanalytics.io"

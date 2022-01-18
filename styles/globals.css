@@ -140,10 +140,6 @@ header ul li {
   cursor: pointer;
 }
 
-.menu-scroll {
-  overflow: hidden;
-}
-
 /* Footer */
 
 footer {
@@ -260,18 +256,22 @@ form textarea {
   }
   header ul {
     display: none;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 12vh;
     margin: 0;
     left: 0;
-    height: 88vh;
+    height: auto;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 8vh 10% 0 10%;
+    padding: 8vh 10% 8vh 10%;
     background-color: var(--background);
     z-index: 5;
+    border: 1px solid var(--secondary);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
   }
   header ul li {
     margin: 20px 0;
