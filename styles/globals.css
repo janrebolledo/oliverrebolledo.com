@@ -4,8 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--fonts);
 }
 
 a {
@@ -20,10 +19,12 @@ a {
 
 :root {
   --white: #ffffff;
-  --gray: #212121;
+  --gray: #b6b6b6;
   --black: #111111;
   --red: #cd2026;
   --padding: 0 10%;
+  --fonts: -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 button,
@@ -111,6 +112,10 @@ header {
   justify-content: space-between;
   padding: var(--padding);
   height: 12vh;
+  border-width: 0;
+  border-bottom: 1px;
+  border-color: var(--gray);
+  border-style: solid;
 }
 
 header ul {
@@ -133,6 +138,12 @@ footer {
   display: flex;
   padding: var(--padding);
   justify-content: space-between;
+  border-width: 0;
+  border-top: 1px;
+  border-color: var(--gray);
+  border-style: solid;
+  height: 20vh;
+  align-items: center;
 }
 
 footer ul {
@@ -160,6 +171,49 @@ footer ul li {
   margin: 0 12px;
 }
 
+/* General */
+
+section {
+  min-height: 60vh;
+  padding: var(--padding);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+section div {
+  width: 50%;
+}
+
+/* Contact */
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+form > input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-width: 1px;
+  border-color: var(--gray);
+}
+
+form > input,
+textarea,
+button {
+  margin: 8px 0;
+}
+
+form textarea {
+  font-family: var(--fonts);
+  resize: none;
+  height: 20vh;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
@@ -180,12 +234,20 @@ footer ul li {
     align-items: center;
     justify-content: center;
     padding: 0;
+    background-color: var(--white);
+    z-index: 5;
   }
   header ul li {
     margin: 20px 0;
   }
   footer {
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--white);
+    height: auto;
   }
   footer ul li {
     margin: 0 24px 0 0;
@@ -195,5 +257,14 @@ footer ul li {
   }
   .footer-socials a img {
     margin: 0 24px 0 0;
+  }
+  section {
+    flex-direction: column;
+  }
+  section div {
+    width: 100%;
+  }
+  form {
+    width: 100%;
   }
 }

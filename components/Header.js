@@ -13,19 +13,31 @@ export default function Header() {
       menuBtn.innerHTML = "close";
     }
   }
+
+  function closeMenu() {
+    if (window.outerWidth && window.outerWidth < 980) {
+      const menu = document.querySelector("#menu");
+      const menuBtn = document.getElementById("mobile-menu");
+      menu.classList.remove("menu-open");
+      menuBtn.innerHTML = "menu";
+    }
+  }
   return (
     <header>
       <h4 className="underline">
         <Link href="/">OLIVER REBOLLEDO</Link>
       </h4>
       <ul id="menu">
-        <li className="underline">
+        <li className="underline" onClick={closeMenu}>
           <Link href="/">HOME</Link>
         </li>
-        <li className="underline">
+        <li className="underline" onClick={closeMenu}>
           <Link href="/work">WORK</Link>
         </li>
-        <li className="underline">
+        <li className="underline" onClick={closeMenu}>
+          <Link href="/about">ABOUT</Link>
+        </li>
+        <li className="underline" onClick={closeMenu}>
           <Link href="/contact">CONTACT</Link>
         </li>
       </ul>

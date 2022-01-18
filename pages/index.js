@@ -1,3 +1,12 @@
+import Head from "next/head";
+
 export default function Home() {
-  return <>{/* <h3>Oliver</h3> */}</>;
+  return (
+    <>
+      <Head></Head>
+      <section>
+        <div></div>
+      </section>
+    </>
+  );
 }
