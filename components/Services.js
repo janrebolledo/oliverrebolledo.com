@@ -3,28 +3,25 @@ import Link from "next/link";
 export default function Services() {
   return (
     <section className="services-section">
-      <h2>SERVICES</h2>
+      <h2>WORK</h2>
       <div className="services-container">
         <div className="services-card">
           <h4>PHOTOGRAPHY</h4>
-          <Link href="">
-            <p className="underline">EXPLORE →</p>
+          <Link href="/work/photography">
+            <p className="button explore-button">EXPLORE</p>
           </Link>
-          <img />
         </div>
         <div className="services-card">
           <h4>GRAPHIC DESIGN</h4>
-          <Link href="">
-            <p className="underline">EXPLORE →</p>
+          <Link href="/work/graphic-design">
+            <p className="button explore-button">EXPLORE</p>
           </Link>
-          <img />
         </div>
         <div className="services-card">
-          <h4>PHOTOGRAPHY</h4>
-          <Link href="">
-            <p className="underline">EXPLORE →</p>
+          <h4>SOCIAL MEDIA MANAGEMENT</h4>
+          <Link href="/work/social-media">
+            <p className="button explore-button">EXPLORE</p>
           </Link>
-          <img />
         </div>
       </div>
     </section>

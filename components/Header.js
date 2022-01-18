@@ -4,13 +4,16 @@ export default function Header() {
   function toggleMenu() {
     const menu = document.querySelector("#menu");
     const menuBtn = document.getElementById("mobile-menu");
+    const doc = document.body;
 
     if (menu.classList.contains("menu-open")) {
       menu.classList.remove("menu-open");
       menuBtn.innerHTML = "menu";
+      doc.classList.remove("state-menu-open");
     } else {
       menu.classList.add("menu-open");
       menuBtn.innerHTML = "close";
+      doc.classList.add("state-menu-open");
     }
   }
 
@@ -18,8 +21,10 @@ export default function Header() {
     if (window.outerWidth && window.outerWidth < 980) {
       const menu = document.querySelector("#menu");
       const menuBtn = document.getElementById("mobile-menu");
+      const doc = document.body;
       menu.classList.remove("menu-open");
       menuBtn.innerHTML = "menu";
+      doc.classList.remove("state-menu-open");
     }
   }
   return (

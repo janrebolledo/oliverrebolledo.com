@@ -14,6 +14,11 @@ body {
   height: auto;
 }
 
+main {
+  padding-top: 12vh;
+  min-height: 80vh;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -25,9 +30,9 @@ a {
 }
 
 :root {
-  --background: #080808;
+  --primary: #080808;
   --secondary: #b6b6b6;
-  --primary: #ffffff;
+  --background: #ffffff;
   --accent: #cd2026;
   --padding: 0 10%;
   --fonts: -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -76,6 +81,7 @@ button,
 
 .link {
   color: var(--accent);
+  cursor: pointer;
 }
 
 .underline {
@@ -124,6 +130,9 @@ header {
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
+  position: fixed;
+  background-color: var(--primary);
+  color: var(--background);
 }
 
 header ul {
@@ -140,6 +149,10 @@ header ul li {
   cursor: pointer;
 }
 
+.state-menu-open {
+  overflow: hidden;
+}
+
 /* Footer */
 
 footer {
@@ -152,6 +165,9 @@ footer {
   border-right: 0px;
   height: 20vh;
   align-items: center;
+  position: static;
+  background-color: var(--primary);
+  color: var(--background);
 }
 
 footer ul {
@@ -210,6 +226,7 @@ textarea {
   padding: 8px;
   border-style: solid;
   border-width: 1px;
+  border-radius: 0;
   border-color: var(--secondary);
 }
 
@@ -242,7 +259,53 @@ form textarea {
 }
 
 .services-card {
-  width: 33%;
+  width: 50%;
+  height: 240px;
+  background-image: url("https://source.unsplash.com/random/?dogs");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.services-card h4 {
+  margin: 8px 0;
+}
+
+.services-card p {
+  margin: 8px 0;
+}
+
+.services-card img {
+  width: 100%;
+}
+
+.explore-button {
+  display: flex;
+  align-items: center;
+}
+
+/* Photography */
+
+.photography-section {
+  flex-direction: column;
+}
+
+.photography-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.photography-gallery img {
+  width: 100%;
 }
 
 /* Media Queries */
@@ -254,24 +317,28 @@ form textarea {
   .menu-open {
     display: flex;
   }
+  .underline {
+    position: static;
+  }
   header ul {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 80%;
+    height: 100vh;
     top: 12vh;
     margin: 0;
-    left: 0;
-    height: auto;
+    right: 0;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 8vh 10% 8vh 10%;
-    background-color: var(--background);
-    z-index: 5;
+    background-color: var(--primary);
+    color: var(--background);
+    z-index: 1;
     border: 1px solid var(--secondary);
     border-top: 0px;
-    border-left: 0px;
     border-right: 0px;
+    border-bottom: 0px;
   }
   header ul li {
     margin: 20px 0;
@@ -282,8 +349,9 @@ form textarea {
     justify-content: flex-start;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: var(--background);
+    background-color: var(--primary);
     height: auto;
+    z-index: 0;
   }
   footer ul li {
     margin: 0 24px 0 0;
