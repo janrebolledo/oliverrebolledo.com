@@ -5,6 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--fonts);
+  background-color: var(--background);
+  color: var(--primary);
 }
 
 a {
@@ -18,10 +20,10 @@ a {
 }
 
 :root {
-  --white: #ffffff;
-  --gray: #b6b6b6;
-  --black: #111111;
-  --red: #cd2026;
+  --background: #080808;
+  --secondary: #b6b6b6;
+  --primary: #ffffff;
+  --accent: #cd2026;
   --padding: 0 10%;
   --fonts: -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -29,9 +31,9 @@ a {
 
 button,
 .button {
-  background: var(--red);
+  background: var(--accent);
   padding: 12px 16px;
-  color: var(--white);
+  color: var(--background);
   border: none;
   appearance: none;
   display: flex;
@@ -47,16 +49,16 @@ button,
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--gray);
+  background-color: var(--secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--red);
+  background: var(--accent);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--red);
+  background: var(--accent);
 }
 
 /* Highlight */
@@ -68,13 +70,14 @@ button,
 /* Links */
 
 .link {
-  color: var(--red);
+  color: var(--accent);
 }
 
 .underline {
   position: relative;
   text-decoration: none;
   cursor: pointer;
+  width: max-content;
 }
 
 .underline::before {
@@ -84,7 +87,7 @@ button,
   height: 2px;
   bottom: 0;
   left: 0;
-  background: var(--red);
+  background: var(--accent);
   visibility: hidden;
   transition: all 0.2s ease-in-out;
 }
@@ -112,10 +115,10 @@ header {
   justify-content: space-between;
   padding: var(--padding);
   height: 12vh;
-  border-width: 0;
-  border-bottom: 1px;
-  border-color: var(--gray);
-  border-style: solid;
+  border: 1px solid var(--secondary);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
 
 header ul {
@@ -138,10 +141,10 @@ footer {
   display: flex;
   padding: var(--padding);
   justify-content: space-between;
-  border-width: 0;
-  border-top: 1px;
-  border-color: var(--gray);
-  border-style: solid;
+  border: 1px solid var(--secondary);
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
   height: 20vh;
   align-items: center;
 }
@@ -179,6 +182,7 @@ section {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  padding-top: 8vh;
 }
 
 section div {
@@ -198,8 +202,9 @@ form > input,
 textarea {
   width: 100%;
   padding: 8px;
+  border-style: solid;
   border-width: 1px;
-  border-color: var(--gray);
+  border-color: var(--secondary);
 }
 
 form > input,
@@ -212,6 +217,26 @@ form textarea {
   font-family: var(--fonts);
   resize: none;
   height: 20vh;
+}
+
+/* Services */
+
+.services-section {
+  flex-direction: column;
+}
+
+.services-section > div {
+  width: 100%;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  width: 33%;
 }
 
 /* Media Queries */
@@ -234,7 +259,7 @@ form textarea {
     align-items: center;
     justify-content: center;
     padding: 0;
-    background-color: var(--white);
+    background-color: var(--background);
     z-index: 5;
   }
   header ul li {
@@ -246,7 +271,7 @@ form textarea {
     justify-content: flex-start;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: var(--white);
+    background-color: var(--background);
     height: auto;
   }
   footer ul li {
@@ -265,6 +290,9 @@ form textarea {
     width: 100%;
   }
   form {
+    width: 100%;
+  }
+  .services-card {
     width: 100%;
   }
 }

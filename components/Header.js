@@ -25,20 +25,30 @@ export default function Header() {
   return (
     <header>
       <h4 className="underline">
-        <Link href="/">OLIVER REBOLLEDO</Link>
+        <Link href="/" passHref>
+          OLIVER REBOLLEDO
+        </Link>
       </h4>
       <ul id="menu">
         <li className="underline" onClick={closeMenu}>
-          <Link href="/">HOME</Link>
+          <Link href="/" passHref>
+            HOME
+          </Link>
         </li>
         <li className="underline" onClick={closeMenu}>
-          <Link href="/work">WORK</Link>
+          <Link href="/work" passHref>
+            WORK
+          </Link>
         </li>
         <li className="underline" onClick={closeMenu}>
-          <Link href="/about">ABOUT</Link>
+          <Link href="/about" passHref>
+            ABOUT
+          </Link>
         </li>
         <li className="underline" onClick={closeMenu}>
-          <Link href="/contact">CONTACT</Link>
+          <Link href="/contact" passHref>
+            CONTACT
+          </Link>
         </li>
       </ul>
       <span
