@@ -269,15 +269,30 @@ form textarea {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  padding: 24px;
   color: var(--background);
 }
 
-.services-card h4 {
+.services-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+  flex-direction: column;
+  transition: 0.5s cubic-bezier(0, 1, 0, 1);
+  backdrop-filter: brightness(1);
+}
+
+.services-info:hover {
+  backdrop-filter: brightness(0.4);
+}
+
+.services-info h4 {
   margin: 8px 0;
 }
 
-.services-card p {
+.services-info p {
   margin: 8px 0;
 }
 
@@ -288,6 +303,10 @@ form textarea {
 .explore-button {
   display: flex;
   align-items: center;
+}
+
+.explore-button span {
+  margin-left: 8px;
 }
 
 /* Photography */
