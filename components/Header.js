@@ -21,9 +21,10 @@ export default function Header() {
     if (window.outerWidth && window.outerWidth < 980) {
       const menu = document.querySelector("#menu");
       const menuBtn = document.getElementById("mobile-menu");
+      const body = document.body;
       menu.classList.remove("menu-open");
       menuBtn.innerHTML = "menu";
-      document.classList.add("menu-scroll");
+      body.classList.remove("menu-scroll");
     }
   }
   return (

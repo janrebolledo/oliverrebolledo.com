@@ -9,6 +9,11 @@ body {
   color: var(--primary);
 }
 
+body {
+  position: relative;
+  height: auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -136,7 +141,7 @@ header ul li {
 }
 
 .menu-scroll {
-  overflow-y: hidden !important;
+  overflow: hidden;
 }
 
 /* Footer */
@@ -262,9 +267,9 @@ form textarea {
     left: 0;
     height: 88vh;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8vh 10% 0 10%;
     background-color: var(--background);
     z-index: 5;
   }
