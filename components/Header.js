@@ -24,7 +24,7 @@ export default function Header() {
   }
   return (
     <header>
-      <h4 className="underline">
+      <h4 className="underline" onClick={closeMenu}>
         <Link href="/" passHref>
           OLIVER REBOLLEDO
         </Link>
