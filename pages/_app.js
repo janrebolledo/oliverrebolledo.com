@@ -30,8 +30,8 @@ function App({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#cd2026" />
-        <meta name="theme-color" content="#cd2026" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="theme-color" content="#000000" />
         {/* HTML Meta Tags */}
         <title>OLIVER REBOLLEDO — MULTIFACETED CREATIVE</title>
         <meta name="description" content="BRINGING YOUR VISION TO LIFE." />
@@ -70,6 +70,14 @@ function App({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
+      <script
+        data-host="https://microanalytics.io"
+        data-dnt="false"
+        src="https://microanalytics.io/js/script.js"
+        id="ZwSg9rf6GA"
+        async
+        defer
+      ></script>
     </>
   );
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Instagram from "../public/Instagram.png";
 import Twitter from "../public/Twitter.png";
 import Youtube from "../public/Youtube.png";
+import TikTok from "../public/TikTok.png";
 
 export default function Footer() {
   return (
@@ -49,6 +50,11 @@ export default function Footer() {
         >
           <a>
             <img alt="Youtube" src={Youtube.src} />
+          </a>
+        </Link>
+        <Link href="https://www.tiktok.com/@oliverrebolledoj" passHref>
+          <a>
+            <img alt="TikTok" src={TikTok.src} />
           </a>
         </Link>
       </div>

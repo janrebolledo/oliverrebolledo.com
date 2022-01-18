@@ -135,6 +135,10 @@ header ul li {
   cursor: pointer;
 }
 
+.menu-scroll {
+  overflow-y: hidden !important;
+}
+
 /* Footer */
 
 footer {
@@ -183,6 +187,7 @@ section {
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 section div {

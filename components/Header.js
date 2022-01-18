@@ -4,13 +4,16 @@ export default function Header() {
   function toggleMenu() {
     const menu = document.querySelector("#menu");
     const menuBtn = document.getElementById("mobile-menu");
+    const body = document.body;
 
     if (menu.classList.contains("menu-open")) {
       menu.classList.remove("menu-open");
       menuBtn.innerHTML = "menu";
+      body.classList.remove("menu-scroll");
     } else {
       menu.classList.add("menu-open");
       menuBtn.innerHTML = "close";
+      body.classList.add("menu-scroll");
     }
   }
 
@@ -20,6 +23,7 @@ export default function Header() {
       const menuBtn = document.getElementById("mobile-menu");
       menu.classList.remove("menu-open");
       menuBtn.innerHTML = "menu";
+      document.classList.add("menu-scroll");
     }
   }
   return (
