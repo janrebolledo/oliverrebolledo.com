@@ -32,7 +32,7 @@ export default function Services() {
         <div className="services-card">
           <div className="services-info">
             <h4>???</h4>
-            <Link href="/work/">
+            <Link href="/">
               <p className="button explore-button">
                 EXPLORE <span className="material-icons">lock</span>
               </p>
