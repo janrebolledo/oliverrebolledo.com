@@ -270,6 +270,7 @@ form textarea {
   justify-content: center;
   flex-direction: column;
   padding: 24px;
+  color: var(--background);
 }
 
 .services-card h4 {
