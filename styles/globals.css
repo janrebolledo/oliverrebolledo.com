@@ -133,6 +133,7 @@ header {
   position: fixed;
   background-color: var(--primary);
   color: var(--background);
+  z-index: 5;
 }
 
 header ul {
@@ -282,6 +283,7 @@ form textarea {
   flex-direction: column;
   transition: 0.5s cubic-bezier(0, 1, 0, 1);
   backdrop-filter: brightness(1);
+  z-index: 1;
 }
 
 .services-info:hover {
