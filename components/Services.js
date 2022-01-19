@@ -31,11 +31,9 @@ export default function Services() {
         </div>
         <div className="services-card">
           <div className="services-info">
-            <h4>???</h4>
-            <Link href="/">
-              <p className="button explore-button">
-                EXPLORE <span className="material-icons">lock</span>
-              </p>
+            <h4>MARKETING</h4>
+            <Link href="/work/marketing">
+              <p className="button explore-button unavailable">EXPLORE</p>
             </Link>
           </div>
         </div>

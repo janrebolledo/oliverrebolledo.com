@@ -31,7 +31,7 @@ a {
 
 :root {
   --primary: #080808;
-  --secondary: #b6b6b6;
+  --secondary: #353535;
   --background: #ffffff;
   --accent: #cd2026;
   --padding: 0 10%;
@@ -262,10 +262,11 @@ form textarea {
 .services-card {
   width: 50%;
   height: 240px;
-  background-image: url("https://source.unsplash.com/random/?dogs");
+  /* background-image: url("https://source.unsplash.com/random/?dogs");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: var(--secondary);
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -354,7 +355,7 @@ form textarea {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 8vh 10% 8vh 10%;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: var(--background);
     z-index: 1;
     border: 1px solid var(--secondary);
