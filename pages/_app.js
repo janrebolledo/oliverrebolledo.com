@@ -75,7 +75,10 @@ function App({ Component, pageProps }) {
       </Head>
       <Header />
       <main>
-        <Component {...pageProps} />
+        {/* <Component {...pageProps} /> */}
+        <section>
+          <h1>COMING SOON</h1>
+        </section>
       </main>
       <Footer />
       <script
