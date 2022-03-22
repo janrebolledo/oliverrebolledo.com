@@ -17,7 +17,7 @@ export default function ProjectPage({
         <title>Oliver Rebolledo — {title}</title>
         <meta name="description" content={excerpt} />
       </Head>
-      <Link href="/">
+      <Link href="/" passHref>
         <p className="mb-4 cursor-pointer text-white transition-all hover:text-gray-300">
           ← Back
         </p>

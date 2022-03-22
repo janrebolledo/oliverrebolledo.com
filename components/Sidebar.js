@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Instagram from "../public/socials/Instagram.png";
-import YouTube from "../public/socials/YouTube.png";
+import YouTube from "../public/socials/Youtube.png";
 import TikTok from "../public/socials/TikTok.png";
 
 export default function Sidebar() {
