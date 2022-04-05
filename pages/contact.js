@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section className="md:flex md:flex-col md:justify-center md:w-3/4 p-12 md:h-screen">
       <Head>
-        <title>Oliver Rebolledo — Contact</title>
+        <title>Desvo Filmz — Contact</title>
       </Head>
       <h1 className="text-xl font-bold">CONTACT</h1>
       <p className="md:w-3/4">

@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   return (
     <section className="p-12 overflow-y-auto md:w-3/4 md:h-screen">
       <Head>
-        <title>Oliver Rebolledo — Photographer &amp; Videographer</title>
+        <title>Desvo Filmz — Photographer &amp; Videographer</title>
       </Head>
       <div className="grid flex-row gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {posts.map((post, index) => (

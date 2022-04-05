@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import Logo from "../public/Logo.png";
+
 import Instagram from "../public/socials/Instagram.png";
 import YouTube from "../public/socials/Youtube.png";
 import TikTok from "../public/socials/TikTok.png";
@@ -9,9 +11,9 @@ export default function Sidebar() {
   return (
     <nav className="md:w-1/4 md:h-screen p-12 pb-0 md:pb-12 flex flex-col justify-between">
       <Link href="/" passHref>
-        <h1 className="text-white font-bold hover:text-gray-300 transition-all cursor-pointer text-xl">
-          OLIVER REBOLLEDO
-        </h1>
+        <div className="cursor-pointer hover:opacity-50 transition-all">
+          <Image src={Logo} alt="Logo" width="64" height="64" />
+        </div>
       </Link>
       <div className="mt-4 md:mt-0">
         <p className="mb-4 text-white hover:underline hover:text-gray-300 transition-all">

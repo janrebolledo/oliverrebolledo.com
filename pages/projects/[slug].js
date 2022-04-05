@@ -24,9 +24,9 @@ export default function ProjectPage({
       </Link>
       <h2 className="text-xl font-bold">{title}</h2>
       <p className="mb-4 mt-2 text-neutral-500">{date}</p>
-      <img src={cover_image} alt="Project Image" />
+      {/* <img src={cover_image} alt="Project Image" /> */}
       <div
-        className="leading-8 mt-4"
+        className="leading-8 mt-4 project-content"
         dangerouslySetInnerHTML={{ __html: marked(content) }}
       ></div>
     </section>
