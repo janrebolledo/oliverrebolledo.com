@@ -38,7 +38,7 @@ export default function Sidebar() {
             <Image src={Instagram} width="32" height="32" alt="Instagram" />
           </Link>
         </div>
-        <div className="mr-4 cursor-pointer hover:opacity-50 transition-all">
+        {/* <div className="mr-4 cursor-pointer hover:opacity-50 transition-all">
           <Link href="https://www.tiktok.com/@oliverrebolledoj" passHref>
             <Image src={TikTok} width="32" height="32" alt="TikTok" />
           </Link>
@@ -50,7 +50,7 @@ export default function Sidebar() {
           >
             <Image src={YouTube} width="32" height="32" alt="YouTube" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
