@@ -7,7 +7,7 @@ import matter from "gray-matter";
 
 export default function Home({ posts }) {
   return (
-    <section className="p-12 overflow-y-auto md:w-3/4 md:h-screen">
+    <section className="p-12 overflow-y-auto min-h-screen md:w-3/4 md:h-screen">
       <Head>
         <title>Desvo Filmz — Photographer &amp; Videographer</title>
       </Head>
