@@ -6,7 +6,7 @@ export default function Contact() {
       <Head>
         <title>Desvo Filmz — Contact</title>
       </Head>
-      <h1 className="text-xl font-bold">CONTACT</h1>
+      <h1 className="text-xl font-bold heading">CONTACT</h1>
       <p className="md:w-3/4">
         FOR ALL PRICING AND BOOKING INQUIRIES, PLEASE FILL OUT THE FORM BELOW.
         PLEASE INCLUDE AS MUCH RELEVANT INFORMATION AS POSSIBLE, FOR EXAMPLE,

@@ -6,12 +6,15 @@ export default function About() {
       <Head>
         <title>Desvo Filmz — About</title>
       </Head>
-      <h1 className="text-xl font-bold">ABOUT</h1>
+      <h1 className="text-xl font-bold heading">ABOUT</h1>
       <p>
-        Oliver Rebolledo “Desvo Filmz” is a photographer &amp; videographer
-        based out of California. Frequently collaborating with Los Gemelos De
-        Sinaloa, Angel Tumbado, LDNE, and many more.
-        <br />
+        My name is Oliver Rebolledo and I am an experienced photographer and
+        videographer with over 8 years of experience. I&apos;ve worked on a
+        variety of projects and have worked with various artists over the years.
+        These include Gemelos De Sinaloa, LDNE, Angel Tumbado, David Santos, and
+        Zexta Allianza amongst others. I am proficient in videography,
+        photography, editing and mixing. I have a large collection of equipment
+        to meet the needs of all my clients.
         <br />
         <b>Languages</b> — English, Native Speaker + Spanish, Fluent
       </p>

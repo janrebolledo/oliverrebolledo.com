@@ -20,12 +20,19 @@ a {
   box-sizing: border-box;
 }
 
-.project-content {
-  min-height: 45vh;
+section {
+  min-height: 80vh;
 }
 
 .project-content > video {
   width: 100%;
   aspect-ratio: 16/ 9;
   margin-top: 1rem;
+}
+
+.heading {
+  width: max-content;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+  border-bottom: 3px solid red;
 }

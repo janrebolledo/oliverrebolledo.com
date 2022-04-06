@@ -12,7 +12,7 @@ export default function ProjectPage({
   content,
 }) {
   return (
-    <section className="p-12 md:w-3/4 md:h-screen overflow-y-auto">
+    <section className="p-12 md:w-3/4 md:h-screen overflow-y-auto uppercase">
       <Head>
         <title>Oliver Rebolledo — {title}</title>
         <meta name="description" content={excerpt} />
@@ -22,7 +22,7 @@ export default function ProjectPage({
           ← Back
         </p>
       </Link>
-      <h2 className="text-xl font-bold">{title}</h2>
+      <h2 className="text-xl font-bold heading">{title}</h2>
       <p className="mb-4 mt-2 text-neutral-500">{date}</p>
       {/* <img src={cover_image} alt="Project Image" /> */}
       <div
