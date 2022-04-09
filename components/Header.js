@@ -10,7 +10,7 @@ import Instagram from "../public/socials/Instagram.png";
 export default function Header() {
   return (
     <header className="p-8 pb-0 flex flex-col items-center">
-      <nav className="w-screen bg-black left-0 px-12 py-2 md:px-0 md:flex md:items-center">
+      <nav className="w-screen bg-black left-0 px-2 py-2 md:px-0 md:flex md:items-center">
         <div className="flex flex-row w-full justify-between align-center mt-4 md:mt-0">
           <p className="w-1/3 md:w-max-content flex items-center justify-center text-white hover:underline hover:text-gray-300 transition-all">
             <Link href="/about" passHref>
