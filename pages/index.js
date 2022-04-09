@@ -22,7 +22,9 @@ export default function Home({ posts }) {
             <span className="ani-2">&amp;</span>{" "}
             <span className="ani-3">VIDEO</span>
           </h1>
-          <p className="my-2 ani-4 pl-2">ENGINEERED FOR YOUR HIGH-END BRAND</p>
+          <p className="my-2 ani-4 md:pl-2">
+            ENGINEERED FOR YOUR HIGH-END BRAND
+          </p>
         </div>
         {/* <div className="flex flex-row overflow-hidden">
           <Button
