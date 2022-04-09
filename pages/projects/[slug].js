@@ -18,7 +18,7 @@ export default function ProjectPage({
         <meta name="description" content={excerpt} />
       </Head>
       <Link href="/" passHref>
-        <p className="mb-4 cursor-pointer text-white transition-all hover:text-gray-300">
+        <p className="text-white rounded-full py-4 px-6 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max border-white cursor-pointer">
           ← Back
         </p>
       </Link>

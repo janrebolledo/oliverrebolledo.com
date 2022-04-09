@@ -25,7 +25,7 @@ export default function Contact() {
         <label htmlFor="name">NAME</label>
         <input
           placeholder="NAME"
-          className="px-4 py-3 mt-2 mb-4 bg-neutral-900"
+          className="text-white rounded-3xl py-4 px-6 mt-2 mb-3 mr-2 w-full transition-all border-solid border-2 bg-transparent border-white"
           required
           type="text"
           name="name"
@@ -34,7 +34,7 @@ export default function Contact() {
         <label htmlFor="email">EXAMPLE</label>
         <input
           placeholder="EXAMPLE@EMAIL.COM"
-          className="px-4 py-3 mt-2 mb-4 bg-neutral-900"
+          className="text-white rounded-3xl py-4 px-6 mt-2 mb-3 mr-2 w-full transition-all border-solid border-2 bg-transparent border-white"
           required
           name="email"
           type="email"
@@ -43,12 +43,14 @@ export default function Contact() {
         <label htmlFor="name">MESSAGE</label>
         <textarea
           placeholder="MESSAGE"
-          className="px-4 py-3 mt-2 mb-4 h-48 bg-neutral-900"
+          className="text-white rounded-3xl py-4 px-6 mt-2 mr-2 h-48 w-full transition-all border-solid border-2 bg-transparent border-white"
           required
           name="message"
         />
 
-        <button className="bg-neutral-900 px-4 py-3 w-max">SEND</button>
+        <button className="text-white rounded-full py-4 px-6 mt-2 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max border-white cursor-pointer">
+          SEND
+        </button>
       </form>
     </section>
   );
