@@ -9,7 +9,10 @@ projectscope: "Example"
 
 ### Los Gemelos De Sinaloa Tour
 
-**Project Scope:** Videography
+**Project Scope:** Photography & Videography
+
+![Image](/projects/LosGemelos1.png)
+![Image](/projects/LosGemelos2.png)
 
 <video controls>
 <source src="/projects/LosGemelos.mp4" type="video/mp4" />

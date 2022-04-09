@@ -6,7 +6,7 @@ import Logo from "../public/Logo.png";
 export default function Header() {
   return (
     <>
-      <header className="p-8 pb-0 items-center hidden md:flex flex-row w-full justify-between align-center mt-4 md:mt-0">
+      <header className="p-8 items-center hidden md:flex flex-row w-full justify-between align-center mt-4 md:mt-0">
         <p className="w-1/3 md:w-max-content flex items-center justify-center text-white hover:underline hover:text-gray-300 transition-all">
           <Link href="/about" passHref>
             ABOUT
