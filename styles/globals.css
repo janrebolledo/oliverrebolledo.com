@@ -45,6 +45,11 @@ section {
   margin-top: 1rem;
 }
 
+.project-content > img {
+  width: 100%;
+  height: fit-content;
+}
+
 .landing-section {
   min-height: 50vh;
   display: flex;
