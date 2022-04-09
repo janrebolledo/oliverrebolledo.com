@@ -14,7 +14,7 @@ projectscope: "Example"
 <source src="/projects/LosGemelos.mp4" type="video/mp4" />
 </video>
 
-**Project Scope:**  
+**Project Scope**  
 Photography & Videography
 
 PRODUCED, EDITED AND SHOT BY DESVO FILMZ
