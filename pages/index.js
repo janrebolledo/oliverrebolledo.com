@@ -9,12 +9,12 @@ import matter from "gray-matter";
 
 export default function Home({ posts }) {
   return (
-    <section className="overflow-y-auto w-full">
+    <section className="w-full">
       <Head>
         <title>Desvo Filmz — Photographer &amp; Videographer</title>
       </Head>
 
-      <div className="p-12 md:px-24 md:mb-12 w-full landing-section">
+      <div className="p-12 md:px-24 md:mb-12 w-full landing-section ab-chanel">
         <div className="flex flex-col w-full md:flex-row md:items-end md:justify-between overflow-hidden">
           <h1 className="text-6xl lg:text-8xl font-bold overflow-hidden">
             <span className="ani-1">PHOTO</span>

@@ -12,14 +12,14 @@ export default function ProjectPage({
   content,
 }) {
   return (
-    <section className="p-12 md:h-screen overflow-y-auto uppercase">
+    <section className="p-12 uppercase">
       <Head>
         <title>Oliver Rebolledo — {title}</title>
         <meta name="description" content={excerpt} />
       </Head>
       <Link href="/" passHref>
         <p className="text-white rounded-full py-4 px-6 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max border-white cursor-pointer">
-          ← Back
+          Back
         </p>
       </Link>
       <h2 className="text-xl font-bold">{title}</h2>
