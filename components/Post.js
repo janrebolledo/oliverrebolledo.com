@@ -7,7 +7,7 @@ export default function Post({ post }) {
         <img
           src={post.frontmatter.cover_image}
           alt=""
-          className="aspect-square hover:opacity-50"
+          className="aspect-square hover:opacity-50 transition-all"
         />
       </div>
     </Link>

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Button from "../components/Button";
+
 import Post from "../components/Post";
 import fs from "fs";
 import path from "path";
@@ -7,14 +9,44 @@ import matter from "gray-matter";
 
 export default function Home({ posts }) {
   return (
-    <section className="p-12 overflow-y-auto min-h-screen md:w-3/4 md:h-screen">
+    <section className="overflow-y-auto w-full">
       <Head>
         <title>Desvo Filmz — Photographer &amp; Videographer</title>
       </Head>
-      <div className="grid flex-row gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-        {posts.map((post, index) => (
-          <Post key={index} post={post} />
-        ))}
+
+      <div className="p-12 md:px-24 md:mb-12 w-full landing-section">
+        <div className="flex flex-col w-full md:flex-row md:items-end md:justify-between overflow-hidden">
+          <h1 className="text-6xl lg:text-8xl font-bold overflow-hidden">
+            <span className="ani-1">PHOTO</span>
+            <br />
+            <span className="ani-2">&amp;</span>{" "}
+            <span className="ani-3">VIDEO</span>
+          </h1>
+          <p className="my-2 ani-4 pl-2">ENGINEERED FOR YOUR HIGH-END BRAND</p>
+        </div>
+        {/* <div className="flex flex-row overflow-hidden">
+          <Button
+            link="#projects"
+            buttonText={"VIEW PROJECTS"}
+            style="red"
+            className="ani-5"
+          />
+          <Button
+            link="/contact"
+            buttonText={"CONTACT"}
+            style="outline"
+            className="ani-6"
+          />
+        </div> */}
+      </div>
+
+      <div id="projects" className="bg-red-700 p-12 md:px-24">
+        <h2 className="text-2xl mb-4 font-bold">PROJECTS</h2>
+        <div className="grid flex-row gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+          {posts.map((post, index) => (
+            <Post key={index} post={post} />
+          ))}
+        </div>
       </div>
     </section>
   );

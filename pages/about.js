@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function About() {
   return (
-    <section className="md:w-3/4 p-12 md:flex md:flex-col md:justify-center md:h-screen">
+    <section className="p-12 md:px-24 md:flex md:flex-col md:h-screen">
       <Head>
         <title>Desvo Filmz — About</title>
       </Head>

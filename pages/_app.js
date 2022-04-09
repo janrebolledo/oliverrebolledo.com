@@ -1,14 +1,15 @@
 import "../styles/globals.css";
-import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className="flex flex-col md:flex-row bg-black text-white">
+    <main className="flex flex-col bg-black text-white scroll-smooth">
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"
       />
-      <Sidebar />
+      <Header />
       <Component {...pageProps} />
       <script
         data-host="https://microanalytics.io"
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
         async
         defer
       />
+      <Footer />
     </main>
   );
 }

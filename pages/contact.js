@@ -2,12 +2,12 @@ import Head from "next/head";
 
 export default function Contact() {
   return (
-    <section className="md:flex md:flex-col md:justify-center md:w-3/4 p-12 md:h-screen">
+    <section className="md:flex md:flex-col md:justify-center p-12 md:px-24">
       <Head>
         <title>Desvo Filmz — Contact</title>
       </Head>
       <h1 className="text-xl font-bold heading">CONTACT</h1>
-      <p className="md:w-3/4">
+      <p>
         FOR ALL PRICING AND BOOKING INQUIRIES, PLEASE FILL OUT THE FORM BELOW.
         PLEASE INCLUDE AS MUCH RELEVANT INFORMATION AS POSSIBLE, FOR EXAMPLE,
         THE LOCATION OF THE PROJECT, AMOUNT OF IMAGES NEEDED, INTENDED USAGE OF
@@ -18,7 +18,7 @@ export default function Contact() {
         name="contact"
         method="POST"
         data-netlify="true"
-        className="mt-8 flex flex-col w-full md:w-3/4"
+        className="mt-8 flex flex-col w-full"
       >
         <input type="hidden" name="form-name" value="contact" />
 
