@@ -7,7 +7,7 @@ export default function About() {
         <title>Desvo Filmz — About</title>
       </Head>
       <h1 className="text-xl font-bold heading">ABOUT</h1>
-      <p>
+      <p className="uppercase">
         My name is Oliver Rebolledo and I am an experienced photographer and
         videographer with over 8 years of experience. I&apos;ve worked on a
         variety of projects and have worked with various artists over the years.
