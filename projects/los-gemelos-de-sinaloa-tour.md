@@ -7,12 +7,12 @@ cover_image: "/projects/LosGemelos.png"
 projectscope: "Example"
 ---
 
-![Image](/projects/LosGemelos1.png)
-![Image](/projects/LosGemelos2.png)
-
 <video controls poster="/projects/LosGemelos.png">
 <source src="/projects/LosGemelos.mp4" type="video/mp4" />
 </video>
+
+![Image](/projects/LosGemelos1.png)
+![Image](/projects/LosGemelos2.png)
 
 **Project Scope**  
 Photography & Videography
