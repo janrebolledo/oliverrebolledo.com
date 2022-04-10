@@ -17,4 +17,4 @@ projectscope: "Example"
 **Project Scope**  
 Photography & Videography
 
-PRODUCED, EDITED AND SHOT BY DESVO FILMZ
+PRODUCED, SHOT AND EDITED BY DESVO FILMZ

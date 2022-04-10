@@ -21,9 +21,16 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .ab-chanel {
-  font-family: AB Chanel, -apple-system, Inter, BlinkMacSystemFont, Segoe UI, Roboto,
-  Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ab-chanel {
+  font-family: AB Chanel, -apple-system, Inter, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
 }
 
 a {
@@ -42,12 +49,13 @@ section {
 .project-content > video {
   width: 100%;
   aspect-ratio: 16/ 9;
-  margin-top: 1rem;
+  margin: 2em 0;
 }
 
-.project-content > img {
+.project-content img {
   width: 100%;
   height: fit-content;
+  margin: 2em 0;
 }
 
 .landing-section {
@@ -65,48 +73,52 @@ section {
 
 .ani-1 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
 }
 
 .ani-2 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
   animation-delay: 0.2s;
 }
 
 .ani-3 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
   animation-delay: 0.4s;
 }
 
 .ani-4 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
   animation-delay: 0.6s;
 }
 
 .ani-5 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
   animation-delay: 0.8s;
 }
 
 .ani-6 {
   display: inline-block;
-  animation: moveUp 0.8s cubic-bezier(0,1,0,1) forwards;
+  animation: moveUp 0.8s cubic-bezier(0, 1, 0, 1) forwards;
   transform: translateY(120px);
   animation-delay: 1s;
 }
 
 @keyframes moveUp {
-  from {transform: translateY(120px);}
-  to {transform: translateY(0px);}
+  from {
+    transform: translateY(120px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 @media (max-width: 768px) {
