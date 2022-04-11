@@ -54,7 +54,7 @@ section {
 
 .project-content img {
   width: 100%;
-  height: fit-content;
+  height: auto;
   margin: 2em 0;
 }
 
