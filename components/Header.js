@@ -14,7 +14,7 @@ export default function Header() {
         </p>
         <Link href="/" passHref>
           <div className="cursor-pointer flex justify-center w-1/3 hover:opacity-50 transition-all">
-            <Image src={Logo} alt="Logo" width="128" height="46" />
+            <Image src={Logo} alt="Logo" width="256" height="30" />
           </div>
         </Link>
         <p className="w-1/3 md:w-max-content flex items-center justify-center text-white hover:underline hover:text-gray-300 transition-all">
@@ -26,7 +26,7 @@ export default function Header() {
       <header className="flex flex-col p-12 md:hidden ab-chanel">
         <Link href="/" passHref>
           <div className="cursor-pointer hover:opacity-50 transition-all">
-            <Image src={Logo} alt="Logo" width="128" height="46" />
+            <Image src={Logo} alt="Logo" width="256" height="30" />
           </div>
         </Link>
         <div className="w-full h-[2px] mt-4 bg-zinc-800" />

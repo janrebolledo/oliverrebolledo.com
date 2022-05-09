@@ -11,14 +11,16 @@ projectscope: "Example"
 <source src="/projects/Gemelos/LosGemelos.mp4" type="video/mp4" />
 </video>
 
+<video controls poster="/projects/Gemelos/Gemelos3.png">
+<source src="/projects/Gemelos/LosGemelos2.mp4" type="video/mp4" />
+</video>
+
 ![Image](/projects/Gemelos/LosGemelos1.png)
 ![Image](/projects/Gemelos/LosGemelos2.png)
 
 ![Image](/projects/Gemelos/Gemelos1.png)
 ![Image](/projects/Gemelos/Gemelos2.png)
 ![Image](/projects/Gemelos/Gemelos3.png)
-![Image](/projects/Gemelos/Gemelos4.png)
-![Image](/projects/Gemelos/Gemelos5.png)
 
 **Project Scope**  
 Photography & Videography

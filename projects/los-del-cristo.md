@@ -13,6 +13,8 @@ projectscope: "Example"
 
 ![Image](/projects/DelCristo/Cristo1.png)
 ![Image](/projects/DelCristo/Cristo2.png)
+![Image](/projects/DelCristo/Cristo3.png)
+![Image](/projects/DelCristo/Cristo4.png)
 
 **Project Scope**  
 Photography & Videography
