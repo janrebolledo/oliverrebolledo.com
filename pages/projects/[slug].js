@@ -16,6 +16,21 @@ export default function ProjectPage({
       <Head>
         <title>Oliver Rebolledo — {title}</title>
         <meta name="description" content={excerpt} />
+        {/* Facebook Tags */}
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={"Oliver Rebolledo — " + title} />
+        <meta property="og:description" content={excerpt} />
+        <meta property="og:image" content={"https:" + cover_image} />
+
+        {/* Twitter Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content={"Oliver Rebolledo — " + title}
+        />
+        <meta property="twitter:description" content={excerpt} />
+        <meta property="twitter:image" content={"https:" + cover_image} />
       </Head>
       <Link href="/" passHref>
         <p className="text-white rounded-full py-4 px-6 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max border-white cursor-pointer">
