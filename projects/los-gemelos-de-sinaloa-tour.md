@@ -3,16 +3,22 @@ title: "Los Gemelos De Sinaloa Tour"
 excerpt: "Los Gemelos De Sinaloa Tour."
 slug: "los-gemelos-de-sinaloa-tour"
 date: "2022"
-cover_image: "/projects/LosGemelos.png"
+cover_image: "/projects/Gemelos/LosGemelos.png"
 projectscope: "Example"
 ---
 
-<video controls poster="/projects/LosGemelos.png">
-<source src="/projects/LosGemelos.mp4" type="video/mp4" />
+<video controls poster="/projects/Gemelos/LosGemelos.png">
+<source src="/projects/Gemelos/LosGemelos.mp4" type="video/mp4" />
 </video>
 
-![Image](/projects/LosGemelos1.png)
-![Image](/projects/LosGemelos2.png)
+![Image](/projects/Gemelos/LosGemelos1.png)
+![Image](/projects/Gemelos/LosGemelos2.png)
+
+![Image](/projects/Gemelos/Gemelos1.png)
+![Image](/projects/Gemelos/Gemelos2.png)
+![Image](/projects/Gemelos/Gemelos3.png)
+![Image](/projects/Gemelos/Gemelos4.png)
+![Image](/projects/Gemelos/Gemelos5.png)
 
 **Project Scope**  
 Photography & Videography
