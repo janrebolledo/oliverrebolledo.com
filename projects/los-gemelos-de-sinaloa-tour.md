@@ -4,7 +4,6 @@ excerpt: "Los Gemelos De Sinaloa Tour."
 slug: "los-gemelos-de-sinaloa-tour"
 date: "2022"
 cover_image: "/projects/Gemelos/LosGemelos.png"
-projectscope: "Example"
 ---
 
 <video controls poster="/projects/Gemelos/LosGemelos.png">

@@ -26,20 +26,6 @@ export default function Home({ posts }) {
             ENGINEERED FOR YOUR HIGH-END BRAND
           </p>
         </div>
-        {/* <div className="flex flex-row overflow-hidden">
-          <Button
-            link="#projects"
-            buttonText={"VIEW PROJECTS"}
-            style="red"
-            className="ani-5"
-          />
-          <Button
-            link="/contact"
-            buttonText={"CONTACT"}
-            style="outline"
-            className="ani-6"
-          />
-        </div> */}
       </div>
 
       <div id="projects" className="bg-red-700 p-12 md:px-24">

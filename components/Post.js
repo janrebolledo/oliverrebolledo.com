@@ -6,8 +6,8 @@ export default function Post({ post }) {
       <div tabIndex="0" className="hover:cursor-pointer">
         <img
           src={post.frontmatter.cover_image}
-          alt=""
-          className="aspect-video md:hover:opacity-50 transition-all"
+          alt={post.frontmatter.title}
+          className="aspect-video md:hover:opacity-50 min-w-full transition-all"
         />
       </div>
     </Link>

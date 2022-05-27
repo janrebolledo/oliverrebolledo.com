@@ -4,7 +4,6 @@ excerpt: "Los Del Cristo."
 slug: "los-del-cristo"
 date: "2022"
 cover_image: "/projects/DelCristo/LosDelCristo.png"
-projectscope: "Example"
 ---
 
 <video controls poster="/projects/DelCristo/LosDelCristo.png">
