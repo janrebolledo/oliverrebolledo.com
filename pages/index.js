@@ -8,6 +8,9 @@ import path from "path";
 import matter from "gray-matter";
 
 export default function Home({ posts }) {
+  var posts = posts.sort((a, b) => {
+    return a.frontmatter.order - b.frontmatter.order;
+  });
   return (
     <section className="w-full">
       <Head>
@@ -30,7 +33,7 @@ export default function Home({ posts }) {
 
       <div id="projects" className="bg-red-700 p-12 md:px-24">
         <h2 className="text-2xl mb-4 font-bold">PROJECTS</h2>
-        <div className="grid flex-row gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid flex-row gap-2 grid-cols-1 md:grid-cols-2">
           {posts.map((post, index) => (
             <Post key={index} post={post} />
           ))}

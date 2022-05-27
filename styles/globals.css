@@ -58,6 +58,10 @@ section {
   margin: 2em 0;
 }
 
+.project-content hr {
+  @apply my-4;
+}
+
 .landing-section {
   min-height: 50vh;
   display: flex;
