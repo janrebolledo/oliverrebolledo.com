@@ -35,7 +35,7 @@ export default function ProjectPage({
         />
       </Head>
       <Link href="/" passHref>
-        <p className="bg-white text-black px-12 py-4 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max cursor-pointer">
+        <p className="bg-white text-black px-12 py-8 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max cursor-pointer">
           Back
         </p>
       </Link>

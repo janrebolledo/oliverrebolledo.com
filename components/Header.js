@@ -28,13 +28,13 @@ function Header() {
         </p>
         <div className="w-full flex flex-row justify-between h-5">
           <Link href="/#about">ABOUT</Link>
-          <Link href="/#about">GET IN TOUCH</Link>
+          <Link href="/#contact">GET IN TOUCH</Link>
         </div>
       </div>
       <div className="block md:hidden col-span-12 mt-2">
         <div className="w-full flex flex-row justify-between h-5">
           <Link href="/#about">ABOUT</Link>
-          <Link href="/#about">GET IN TOUCH</Link>
+          <Link href="/#contact">GET IN TOUCH</Link>
         </div>
       </div>
     </header>
