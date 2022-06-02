@@ -11,7 +11,7 @@ export default function ProjectPage({
   content,
 }) {
   return (
-    <section className="py-24 px-10% uppercase">
+    <section className="py-32 px-10% uppercase">
       <Head>
         <title>Desvo Filmz — {title}</title>
         <meta name="description" content={excerpt} />
@@ -35,7 +35,7 @@ export default function ProjectPage({
         />
       </Head>
       <Link href="/" passHref>
-        <p className="bg-white text-black px-12 py-8 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max cursor-pointer">
+        <p className="bg-white text-black px-12 py-4 mt-2 mb-4 mr-2 hover:bg-[#ffffff40] transition-all border-solid border-2 w-max cursor-pointer">
           Back
         </p>
       </Link>

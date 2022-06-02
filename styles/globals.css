@@ -49,8 +49,10 @@ a {
   width: 0px;
 }
 
-.post:hover > img {
-  display: block;
-  width: 256px;
-  margin-bottom: 12px;
+@media (min-width: 768px) {
+  .post:hover > img {
+    display: block;
+    width: 256px;
+    margin-bottom: 12px;
+  }
 }

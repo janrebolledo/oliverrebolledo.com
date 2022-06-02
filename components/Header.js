@@ -9,7 +9,7 @@ function Header() {
     menuBtn.classList.toggle("menuOpen");
   }
   return (
-    <header className="w-full grid grid-cols-12 py-8 px-10% fixed">
+    <header className="w-full grid grid-cols-12 py-8 px-10% absolute md:fixed">
       <h1 className="font-bold text-2xl col-span-6">DESVO FILMZ</h1>
       <p className="col-span-6 md:col-span-3 text-right md:text-left">
         BASED IN LOS ANGELES
