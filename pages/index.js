@@ -1,7 +1,5 @@
 import Head from "next/head";
 
-import Button from "../components/Button";
-
 import Post from "../components/Post";
 import fs from "fs";
 import path from "path";
@@ -56,6 +54,10 @@ export default function Home({ posts }) {
     </section>
   );
 }
+
+// {
+//   posts.map((post, index) => <Post key={index} post={post} />);
+// }
 
 export async function getStaticProps() {
   const files = fs.readdirSync(path.join("projects"));
