@@ -5,6 +5,7 @@ slug: "los-del-cristo"
 date: "2022"
 cover_image: "/projects/DelCristo/LosDelCristo.png"
 order: 2
+project_scope: "PHOTOGRAPHY & VIDEOGRAPHY"
 ---
 
 <video controls poster="/projects/DelCristo/LosDelCristo.png">

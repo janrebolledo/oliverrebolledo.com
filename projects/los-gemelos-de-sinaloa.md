@@ -1,10 +1,11 @@
 ---
-title: "Los Gemelos De Sinaloa Tour"
-excerpt: "Los Gemelos De Sinaloa Tour."
-slug: "los-gemelos-de-sinaloa-tour"
+title: "Los Gemelos De Sinaloa"
+excerpt: "Los Gemelos De Sinaloa."
+slug: "los-gemelos-de-sinaloa"
 date: "2022"
 cover_image: "/projects/Gemelos/GemelosCover.png"
 order: 1
+project_scope: "PHOTOGRAPHY & VIDEOGRAPHY"
 ---
 
 <video controls poster="/projects/Gemelos/GemelosCover.png">
